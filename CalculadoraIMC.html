@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculadoraPlanos</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/meu-estilo.css">
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/calcularIMC.js"></script>
+
+</head>
+<body>
+    <div class="container-fluid container-principal">
+        <div class="row justify-content-center">
+    
+            <div class="col-md-6 calculadora">
+                <h1 class="text-center">Bem-Vindo a Calculadora de Planos </h1>
+                <h5 class="text-center">Digite os dados solicitados: </h5>
+                <div class="form-group">
+                    <label for="peso">PESO (kg): </label>
+                    <input type="number" class="form-control" id="peso" step="0.1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="altura">ALTURA (m): </label>
+                    <input type="number" class="form-control" id="altura" step="0.1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="altura">IDADE (anos): </label>
+                    <input type="number" class="form-control" id="idade" step="0.1" required>
+                </div>
+
+                    <button type="button" class="btn btn-primary btn-block" onclick="calcularIMC()">Calcular!</button>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
