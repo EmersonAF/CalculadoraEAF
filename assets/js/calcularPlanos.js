@@ -22,7 +22,7 @@ function calcularPlanosA() {
 function calcularFatorDeComorbidade(imc) {
     if (imc < 18.5) {
         return 10;
-    } else if (imc >= 18.5 && imc < 24.9) {
+    } else if (imc >= 18.5 && imc <= 24.9) {
         return 1;
     } else if (imc >= 25 && imc < 29.9) {
         return 6;
